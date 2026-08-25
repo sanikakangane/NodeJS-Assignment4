@@ -8,7 +8,6 @@ fs.writeFile(
     console.log("Error while creating file");
     return;
 }
-
     console.log("File created successfully");
 }
 );
