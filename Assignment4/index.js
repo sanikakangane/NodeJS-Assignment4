@@ -1,10 +1,13 @@
 const fs = require("fs");
 
-fs.readFile("student.txt", "utf8", (err, data) => {
+fs.appendFile(
+    "student.txt",
+    "\nExperience: 1 Year\nCity: Kolkata",
+    (err) => {
     if (err) {
-    console.log("Error while reading file");
+    console.log("Error while updating file");
     return;
 }
-    console.log("Student Information:");
-    console.log(data);
-});
+    console.log("Data updated successfully");
+}
+);
