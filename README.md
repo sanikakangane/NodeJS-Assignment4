@@ -15,8 +15,11 @@ A beginner-friendly Node.js file system assignment created using the built-in `f
 ```text
 ├── index.js
 ├── package.json
+├── student.txt
 └── README.md
 ```
+
+`student.txt` is created when the program runs. It is renamed to `studentDetails.txt` during Task 4 and deleted during Task 5.
 
 ## Concepts Used
 
