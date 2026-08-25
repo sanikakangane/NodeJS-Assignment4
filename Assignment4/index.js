@@ -1,13 +1,9 @@
 const fs = require("fs");
 
-fs.appendFile(
-    "student.txt",
-    "\nExperience: 1 Year\nCity: Kolkata",
-    (err) => {
+fs.rename("student.txt", "studentDetails.txt", (err) => {
     if (err) {
-    console.log("Error while updating file");
+    console.log("Error while renaming file");
     return;
 }
-    console.log("Data updated successfully");
-}
-);
+    console.log("File renamed successfully");
+});
