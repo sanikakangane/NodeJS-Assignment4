@@ -1,9 +1,9 @@
 const fs = require("fs");
 
-fs.rename("student.txt", "studentDetails.txt", (err) => {
+fs.unlink("studentDetails.txt", (err) => {
     if (err) {
-    console.log("Error while renaming file");
+    console.log("Error while deleting file");
     return;
 }
-    console.log("File renamed successfully");
+console.log("File deleted successfully");
 });
