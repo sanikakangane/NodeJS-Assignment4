@@ -1,13 +1,11 @@
 const fs = require("fs");
 
-fs.writeFile(
-    "student.txt",
-    "Name: Sanika Kangane\nCourse: Full Stack Development\nTechnology: Node.js",
-(err) => {
+fs.readFile("student.txt", "utf8", (err, data) => {
     if (err) {
-    console.log("Error while creating file");
+    console.log("Error while reading file");
     return;
 }
-    console.log("File created successfully");
-}
-);
+
+    console.log("Student Information:");
+    console.log(data);
+});
