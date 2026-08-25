@@ -5,7 +5,6 @@ fs.readFile("student.txt", "utf8", (err, data) => {
     console.log("Error while reading file");
     return;
 }
-
     console.log("Student Information:");
     console.log(data);
 });
