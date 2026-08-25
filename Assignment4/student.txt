@@ -1,3 +1,5 @@
 Name: Sanika Kangane
 Course: Full Stack Development
 Technology: Node.js
+Experience: 1 Year
+City: Kolkata
