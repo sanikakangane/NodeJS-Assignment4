@@ -103,4 +103,4 @@ File deleted successfully
 
 ## Author
 
-👩‍💻 **Sanika Kangane**
+**Sanika Kangane 👩🏻‍💻**
